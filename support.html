@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; base-uri 'none'; form-action 'none'">
+<title>EasyReader 使用帮助 / Support · EasyReader</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">跳转到正文 / Skip to content</a>
+<header><a class="brand" href="index.html">EasyReader</a><nav aria-label="Main"><a href="privacy.html">隐私政策</a><a href="support.html">使用帮助</a></nav></header>
+<main id="main"><nav aria-label="Language"><a href="#zh">中文</a><a href="#en" lang="en">English</a></nav><h1>EasyReader 使用帮助 / Support</h1>
+<section lang="zh-Hans" id="zh"><h2>中文</h2>
+<p>EasyReader 是面向 iOS 17 及以上 iPhone 的本地文档阅读器。个人开发者：区倩芹。支持邮箱：<a href="mailto:celery_ou@163.com">celery_ou@163.com</a>。</p>
+<h3>导入与阅读</h3>
+<p>在书库中选择导入，可从文件、下载 URL 或局域网上传导入 PDF、EPUB、Markdown 和单个 <code>.html</code>。当前不支持 MOBI、AZW3、<code>.htm</code>、网页资源目录或网页压缩包。</p>
+<p>导入上限：PDF 200 MiB，EPUB 压缩文件 50 MiB，Markdown 和 HTML 各 2 MiB。EPUB 解压总量上限 200 MiB、单条目 20 MiB、最多 10,000 条、压缩比上限 100:1。需要足够的可用存储空间；支持的扩展名不代表文件未损坏。URL 应指向可直接下载的文件；GitHub 文件展示链接会转换为原始文件链接。</p>
+<p>HTML 文档脚本关闭，自动外部资源请求受限，缺少的网页资源不会自动补齐。外部链接在用户点击后交给系统浏览器。PDF 保持固定版式；无文字层的扫描 PDF 不支持文字搜索，App 不提供 OCR。EPUB 需要不含 DRM，复杂排版可能与原出版物不同。</p>
+<h3>翻页与外观</h3>
+<p>拖动底部阅读进度条可预览目标页码或百分比，松手后跳转；退出阅读后会保存位置。</p>
+<p>在正文中左滑下一页、右滑上一页；PDF 按文档页翻页，其余格式按屏移动，EPUB 可跨章。轻触非链接正文进入全屏沉浸阅读，再轻触退出。纵向滚动、文字选择与缩放仍可使用；放大或选字时暂停手势翻页，横向代码块可自行滚动。</p>
+<p>在阅读外观选择“夜间”会让整个 App 使用深色；“白色”或“纸色”使用浅色界面。“跟随系统”让全 App 跟随系统设置。PDF 和 HTML 保留原文件配色，不强制反色。</p>
+<h3>Wi-Fi 上传</h3>
+<p>让电脑与手机位于同一可互访的 Wi-Fi 网络，保持 App 前台，开启上传并在电脑浏览器打开会话链接。当前需要 Wi-Fi IPv4；如出现系统提示，请允许本地网络访问。HTTP 未加密，请只在可信网络使用，不要公开会话链接。</p>
+<p>关闭上传、锁屏或切到后台会停止服务并使链接失效。重新开启后使用新链接，未完成文件需要重试。无法连接时，检查本地网络权限、Wi-Fi 地址以及访客网络是否隔离设备。</p>
+<h3>GitHub 同步</h3>
+<p>本地阅读不需要 GitHub。使用同步时，在设置中连接 GitHub，再选择并校验仓库、分支和根目录。若 App 提示“未配置 GitHub”，请联系支持，不要发送或粘贴 client secret、密码或访问令牌。</p>
+<p>先预览，再确认上传或下载；遇到冲突时选择本地、GitHub 或保留两份后重新查看预览。部分失败只重试未完成项；若上次结果不确定，先完成恢复流程。当前单文件 GitHub 上传上限 50 MiB，大 PDF 仍可留在本机阅读。</p>
+<p>公开仓库内容可被他人读取。仅本机删除与两端删除是不同操作；远端删除不会清除 Git 历史。断开连接会移除本机凭据，不删除文档；可在 GitHub 设置中进一步撤销授权。</p>
+<h3>常见问题</h3>
+<ul><li>导入失败：检查真实格式、大小、设备可用空间、网络及下载响应。损坏文件或不受支持的加密文件需要重新导出。</li><li>同步失败：检查授权、仓库权限、分支和根目录。内容已变化时重新预览，不要强行覆盖冲突。</li><li>书签位置失效：文档内容更新可能改变锚点，请打开目标位置后重新定位书签。</li><li>阅读位置或排版异常：记录格式、操作步骤和是否修改过文件。优先提供可公开分享的最小示例，不发送私人原文。</li></ul>
+<h3>联系支持与隐私</h3>
+<p>邮件请附 App 版本、iOS 版本、机型、复现步骤和已去除私人信息的截图。请勿发送令牌、上传会话链接、密码或私人文档。联系：<a href="mailto:celery_ou@163.com">celery_ou@163.com</a>。开发者：区倩芹。</p>
+<p>数据处理、保留和删除说明见<a href="privacy.html">隐私政策</a>。</p>
+</section>
+<section lang="en" id="en"><h2>English</h2>
+<p>EasyReader is a local document reader for iPhone with iOS 17 or later. Individual developer: 区倩芹. Support: <a href="mailto:celery_ou@163.com">celery_ou@163.com</a>.</p>
+<h3>Import and reading</h3>
+<p>Use the library&#x27;s import action to choose Files, a download URL or local-network upload. Supported formats are PDF, EPUB, Markdown and a single <code>.html</code> file. MOBI, AZW3, <code>.htm</code>, webpage asset folders and webpage archives are not supported.</p>
+<p>Import limits are PDF 200 MiB, compressed EPUB 50 MiB, and Markdown/HTML 2 MiB each. EPUB extraction is limited to 200 MiB total, 20 MiB per entry, 10,000 entries and a 100:1 compression ratio. Enough free storage is required; a supported extension does not make a damaged file valid. URLs should point to downloadable files; GitHub file-view links are converted to raw file links.</p>
+<p>HTML scripts are disabled, automatic external requests are restricted and missing assets are not fetched. External links open in the system browser after you choose them. PDF keeps its fixed layout; image-only PDFs have no text search, and the app does not provide OCR. EPUB must be DRM-free; complex layouts may differ from the original publication.</p>
+<h3>Page turns and appearance</h3>
+<p>Drag the reading progress slider to preview a page or percentage, then release to jump. Your position is saved when you leave reading.</p>
+<p>Swipe left in document content to move forward, or right to move back. PDF turns by document page; other formats move by screen, with EPUB chapter transitions. Tap non-link content to enter immersive reading, then tap again to leave. Vertical scrolling, text selection and zoom remain available. Page-turn swipes pause while zoomed or selecting text, and horizontal code blocks retain their own scrolling.</p>
+<p>Choosing Night in reading appearance applies dark mode throughout the app. White and Paper use a light interface. Follow System applies the system appearance throughout the app. PDF and HTML retain their original document colors without forced inversion.</p>
+<h3>Wi-Fi upload</h3>
+<p>Keep your computer and iPhone on the same reachable Wi-Fi network, keep the app in the foreground, start upload and open the session link in the computer&#x27;s browser. Wi-Fi IPv4 is currently required. Allow local-network access when iOS asks. HTTP is unencrypted; use a trusted network and do not disclose the link.</p>
+<p>Closing upload, locking the device or backgrounding the app stops the service and invalidates the link. Start again for a new link and retry unfinished files. If you cannot connect, check local-network permission, the Wi-Fi address and whether a guest network isolates devices.</p>
+<h3>GitHub sync</h3>
+<p>Local reading does not require GitHub. For sync, connect GitHub in Settings, then select and validate a repository, branch and root folder. If the app reports that GitHub is not configured, contact support; do not send or paste client secrets, passwords or access tokens.</p>
+<p>Preview before confirming uploads or downloads. Resolve conflicts using local, GitHub or both copies, then review the preview again. Retry only unfinished items after a partial failure. If an earlier result is uncertain, complete recovery first. GitHub uploads currently allow at most 50 MiB per file; larger supported PDFs can still be read locally.</p>
+<p>Public repositories expose their content to others. Local-only removal differs from deletion from both locations. Remote deletion does not erase Git history. Disconnecting removes the local credential without deleting documents; you can also revoke authorization in GitHub settings.</p>
+<h3>Troubleshooting</h3>
+<ul><li>Import fails: check the actual format, size, free storage, network and download response. Damaged files or unsupported encrypted files may need re-exporting.</li><li>Sync fails: check authorization, repository permissions, branch and root folder. Re-preview changed content instead of forcing an overwrite.</li><li>Bookmark cannot restore: changed document content may invalidate an anchor. Open the intended position and relocate the bookmark.</li><li>Reading position or layout differs: note the format, steps and whether the file changed. Prefer a minimal sample safe to share publicly over a private original.</li></ul>
+<h3>Contact and privacy</h3>
+<p>Include the app version, iOS version, device model, reproducible steps and redacted screenshots in your email. Never send tokens, upload session links, passwords or private documents. Contact: <a href="mailto:celery_ou@163.com">celery_ou@163.com</a>. Developer: 区倩芹.</p>
+<p>See the <a href="privacy.html">privacy policy</a> for data handling, retention and deletion.</p>
+</section></main>
+<footer>© 2026 区倩芹 · <a href="mailto:celery_ou@163.com">celery_ou@163.com</a></footer>
+</body>
+</html>
